@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AstroTeam DataBase</title>
+  </head>
+  <body>
+    <h1>AstroTeam DataBase</h1>
+
+    <form id="search-form">
+      <label for="search">Search:</label>
+      <input type="text" id="search" name="q" />
+      <button type="button" id="search-button">Search</button>
+    </form>
+
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Size</th>
+        <th>Link</th>
+      </tr>
+      <!-- Data will be inserted here -->
+    </table>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      // Replace this with your actual data or load data from a local JSON file
+      const data = [
+        { name: "Item 1", type: "Type 1", size: "Size 1", link: "Link 1" },
+        { name: "Item 2", type: "Type 2", size: "Size 2", link: "Link 2" },
+        { name: "Item 3", type: "Type 3", size: "Size 3", link: "Link 3" },
+      ];
+
+      const searchForm = document.getElementById("search-form");
+      const tableBody = document.querySelector("table tbody");
+
+      // Function to update the table with search results
+      function updateTable(searchTerm) {
+        tableBody.innerHTML = "";
+        const searchTermLower = searchTerm.toLowerCase();
+        for (const item of data) {
+          const itemNameLower = item.name.toLowerCase();
+          if (itemNameLower.includes(searchTermLower)) {
+            const row = document.createElement("tr");
+            row.innerHTML = `
+        <td>${item.name}</td>
+        <td>${item.type}</td>
+        <td>${item.size}</td>
+        <td>${item.link}</td>
+      `;
+            tableBody.appendChild(row);
+          }
+        }
+      }
+
+      // Event listener for the search button
+      document.getElementById("search-button").addEventListener("click", () => {
+        const searchTerm = document.getElementById("search").value;
+        updateTable(searchTerm);
+      });
+
+      // Initial table rendering
+      updateTable("");
+    </script>
+  </body>
+</html>

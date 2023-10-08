@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Nombre1",
+        "type": "Tipo1",
+        "size": 100,
+        "link": "Enlace1"
+    },
+    {
+        "name": "Nombre2",
+        "type": "Tipo2",
+        "size": 200,
+        "link": "Enlace2"
+    }
+]
