@@ -1,14 +1,50 @@
 [
     {
-        "name": "Nombre1",
-        "type": "Tipo1",
-        "size": 100,
-        "link": "Enlace1"
+        "name": "CONAE Argentina",
+        "type": "database",
+        "size": "100",
+        "link": "https://www.argentina.gob.ar/ciencia/conae"
     },
     {
-        "name": "Nombre2",
-        "type": "Tipo2",
-        "size": 200,
-        "link": "Enlace2"
+        "name": "AlphaFold Protein Structure Database by DeepMind",
+        "type": "model",
+        "size": "200",
+        "link": "https://alphafold.ebi.ac.uk/"
+    },
+    {
+        "name": "Biopsykit, a Python package for the analysis of biopsychological data",
+        "type": "package",
+        "size": "279.9 kB",
+        "link": "https://pypi.org/project/biopsykit/"
+    },
+    {
+        "name": "Foldit",
+        "type": "game",
+        "size": "200",
+        "link": "https://fold.it/"
+    },
+    {
+        "name": "BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mining, by Microsoft",
+        "type": "model",
+        "size": "200",
+        "link": "https://github.com/microsoft/BioGPT"
+    },
+    {
+        "name": "BioBERT",
+        "type": "model",
+        "size": "200",
+        "link": "https://github.com/dmis-lab/biobert"
+    },
+    {
+        "name": "NASA GeneLab, space-related omics database",
+        "type": "database",
+        "size": "200",
+        "link": "https://genelab.nasa.gov/"
+    },
+    {
+        "name": "Prithvi-100M, IBM and NASA",
+        "type": "model",
+        "size": "200",
+        "link": "https://huggingface.co/ibm-nasa-geospatial/Prithvi-100M"
     }
 ]
