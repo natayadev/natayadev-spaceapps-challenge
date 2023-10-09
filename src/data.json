@@ -46,5 +46,77 @@
         "type": "model",
         "size": "200",
         "link": "https://huggingface.co/ibm-nasa-geospatial/Prithvi-100M"
-    }
+    },
+    {
+        "name": "PubMed",
+        "type": "database",
+        "size": "200",
+        "link": "https://www.nlm.nih.gov/"
+    },
+    {
+        "name": "Datos Abiertos Argentina",
+        "type": "database",
+        "size": "200",
+        "link": "https://www.argentina.gob.ar/datos-abiertos"
+    },
+    {
+        "name": "Ministerio de Salud Argentina",
+        "type": "database",
+        "size": "200",
+        "link": "http://datos.salud.gob.ar/"
+    },
+    {
+        "name": "NASA Open Data Portal",
+        "type": "database",
+        "size": "200",
+        "link": "https://data.nasa.gov/"
+    },
+    {
+        "name": "ESA Biosentinel",
+        "type": "model",
+        "size": "200",
+        "link": "https://www.nasa.gov/centers-and-facilities/ames/what-is-biosentinel/"
+    },
+    {
+        "name": "World Health Organization datasets",
+        "type": "database",
+        "size": "200",
+        "link": "https://www.who.int/es/data"
+    },
+    {
+        "name": "Scielo",
+        "type": "database",
+        "size": "200",
+        "link": "Enlace2"
+    },
+    {
+        "name": "UNIProt",
+        "type": "database",
+        "size": "200",
+        "link": "https://www.uniprot.org/"
+    },
+    {
+        "name": "Redalyc",
+        "type": "database",
+        "size": "200",
+        "link": "https://www.redalyc.org/"
+    },
+    {
+        "name": "DeepSSM_SysID",
+        "type": "model",
+        "size": "200",
+        "link": "https://github.com/dgedon/DeepSSM_SysID"
+    },
+    {
+        "name": "recount3, uniformly processed RNA-seq",
+        "type": "database",
+        "size": "200",
+        "link": "https://rna.recount.bio/"
+    },
+    {
+        "name": "Kaggle",
+        "type": "database",
+        "size": "200",
+        "link": "https://www.kaggle.com/datasets"
+    }    
 ]
